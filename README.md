@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+# donkeyDrift
+This is a new project which is based on donkeyCar.
+We have already modified the video capture algorithm and locked tensorflow's version at tensorflow-1.8.0 and cloned the donkeycar version with 2.5.1 branch.
+* You can download the model that we have already trained at local.
+* You can join us and give us some advices. 
+## How to use it
+* clone the repository by:
+* git clone https://github.com/yoyojacky/donkeyDrift.git
+* cd donkeyDrift/
+* chmod +x setup.sh
+* ./setup.sh
+## How to create a new car instance. 
+*  $donkey createcar  mynewcar
+## How to train my car.
+* $python manager_Karasliner.py train --tub=./data/ --model=./models/mytrainning.model
+## How to dirve my car.
+* $python manager_Karasliner.py drive 
+## Have fun!
 
-You can use the [editor on GitHub](https://github.com/Mavengers/DonkeyDrift/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Mavengers/DonkeyDrift/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
