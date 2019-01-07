@@ -5,7 +5,7 @@ We have already modified the video capture algorithm and locked tensorflow's ver
 * You can join us and give us some advices. 
 ## How to use it
 * clone the repository by:
-* git clone https://github.com/yoyojacky/donkeyDrift.git
+* git clone https://github.com/Mavengers/DonkeyDrift.git
 * cd donkeyDrift/
 * chmod +x setup.sh
 * ./setup.sh
