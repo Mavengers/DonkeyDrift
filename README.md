@@ -1,19 +1,69 @@
-# donkeyDrift
-This is a new project which is based on donkeyCar.
-We have already modified the video capture algorithm and locked tensorflow's version at tensorflow-1.8.0 and cloned the donkeycar version with 2.5.1 branch.
-* You can download the model that we have already trained at local.
-* You can join us and give us some advices. 
-## How to use it
-* clone the repository by:
-* git clone https://github.com/Mavengers/DonkeyDrift.git
-* cd donkeyDrift/
-* chmod +x setup.sh
-* ./setup.sh
-## How to create a new car instance. 
-*  $donkey createcar  mynewcar
-## How to train my car.
-* $python manager_Karasliner.py train --tub=./data/ --model=./models/mytrainning.model
-## How to dirve my car.
-* $python manager_Karasliner.py drive 
-## Have fun!
+# DonkeyDrift
+This is a new project from Shanghai, China, which is originally based on DonkeyCar.
+We have built an Arduino chassis with high performance, modified several configurations and chosen tensorflow version at 1.8.0 and donkeycar version at 2.5.1 of master branch.
 
+# Instruction
+
+## 1. Reference & Tools:
+
+| https://pan.baidu.com/s/1ClZaB69cioZtovuSzdv84g |
+| ----------------------------------------------- |
+| Password：or89                                  |
+
+## 2. Clone this repository:
+
+```
+git clone https://github.com/Haobot/DonkeyDrift
+
+cd DonkeyDrift/
+```
+
+## 3. Install DonkeyDrift:
+
+```
+activate donkey
+pip install -e .
+```
+
+## 4. Create new instance:
+
+```
+donkey createcar ./mycar
+cd  mycar/
+```
+
+## 5. Calibrate car:
+
+```
+donkey calibrate --channel 0
+donkey calibrate --channel 1
+```
+
+## 6. Drive car:
+
+```
+python manage.py drive 
+```
+
+## 7. Train Model on PC or Server:
+```
+python manage.py train --tub=./data/your_tub_name --model=./models/your_model_name
+```
+
+## 8. Test Model with Unity simulators:
+
+```
+donkey sim --model=./models/your_model_name --type=linear
+```
+
+**P.S. Simulators just work well on Linux and MAC now, Windows version need fixing.**
+
+## 9. Drive car with model for Auto Drive:
+
+```
+python manage.py drive --model=./models/your_model_name
+```
+
+------
+
+# Have fun!
