@@ -1,0 +1,8 @@
+## First Version Released
+* 2019-3-14 Piday@MushroomCloud DonkeyDrift first version released in Shanghi, China.
+## Features
+* Stripped wires.
+* Optimized KarasLinear algorithm.
+* fixed bugs tensorflow version's problem.
+* TODO:  "oneshot shell scripts" for beginner.
+* TODO:  "make beginner kits"
