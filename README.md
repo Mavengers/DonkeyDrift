@@ -6,9 +6,9 @@ We have built an Arduino chassis with high performance, modified several configu
 
 ## 1. Reference & Tools:
 
-| https://pan.baidu.com/s/1ClZaB69cioZtovuSzdv84g |
+| https://pan.baidu.com/s/1ZSSp5YRDbOhoB2DSR1p4Hw |
 | ----------------------------------------------- |
-| Password：or89                                  |
+| Password：3pfj                                  |
 
 ## 2. Clone this repository:
 
